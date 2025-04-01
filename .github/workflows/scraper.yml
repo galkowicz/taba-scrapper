@@ -56,4 +56,4 @@ jobs:
             Regards,
             Your Automation
           to: "orian.galk@gmail.com"
-          from: ${{ secrets.BREVO_SMTP_USERNAME }}
+          from: "noreply@sendinblue.com"
