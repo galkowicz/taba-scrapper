@@ -41,7 +41,7 @@ jobs:
       - name: Send Email with Brevo
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: smtp-relay.sendinblue.com
+          server_address: smtp-relay.brevo.com
           server_port: 587
           username: ${{ secrets.BREVO_SMTP_USERNAME }}
           password: ${{ secrets.BREVO_SMTP_PASSWORD }}
