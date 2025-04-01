@@ -45,7 +45,7 @@ jobs:
           server_port: 587
           username: ${{ secrets.BREVO_SMTP_USERNAME }}
           password: ${{ secrets.BREVO_SMTP_PASSWORD }}
-          subject: "Scraper State File Content"
+          subject: "TABA - Scraper State File Content"
           body: |
             Hello,
 
@@ -55,5 +55,5 @@ jobs:
 
             Regards,
             Your Automation
-          to: "recipient@example.com"
-          from: "sender@example.com"
+          to: "orian.galk@gmail.com"
+          from: ${{ secrets.BREVO_SMTP_USERNAME }}
